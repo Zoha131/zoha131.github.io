@@ -24,6 +24,11 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+
+.cert, .cert:hover, .cert:active, .cert:visited, .cert:link {
+  color: white;
+}
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
