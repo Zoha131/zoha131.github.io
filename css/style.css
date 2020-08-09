@@ -375,8 +375,8 @@ h6{
 
 .profile-image {
     margin-top: -18px;
-    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
-    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    -webkit-clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
 }
 
 .profile-image img{
@@ -472,6 +472,14 @@ ul.profile-information li:first-child:after{
 .profile .site-btn{
     margin: 18px auto 30px;
     display: block;
+}
+
+.profile .site-btn a{
+    color: black;
+}
+
+.profile .site-btn:hover a{
+    color: black !important;
 }
 
 
@@ -729,7 +737,9 @@ ul.timeline{
 /* Skills */
 
 .skill-list li {
-    list-style: none;
+    list-style: disc;
+    margin-left: 24px;
+    margin-bottom: 8px;
 }
 
 .skill-list h3 {
