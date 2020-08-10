@@ -633,11 +633,10 @@ section.graybg{
 
 .clients .client{
     background: #fff;
-    padding: 18px;
+    padding: 16px;
     border-radius: 8px;
     box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08);
-    width: 100%;    
-    padding: 26px 16px;
+    width: 100%;
 }
 /*
 .clients .col-md-3:nth-child(2) .client {
@@ -1268,9 +1267,9 @@ ul.timeline{
 }
 
 .testimonials .comment .top-section figure {
-    width: 23%;
+    width: 60px;
     float: left;
-    border-radius: 50px;
+    border-radius: 64px;
     overflow: hidden;
 }
 
